@@ -14,7 +14,7 @@ exclude = ["/.github", "/examples", "/scripts"]
 
 [dependencies]
 tokio = "1.0"
-rustls = { version = "0.23.9", default-features = false, features = ["std", "brotli", "std"] }
+rustls = { version = "0.23.10", default-features = false, features = ["std", "brotli", "std"] }
 pki-types = { package = "rustls-pki-types", version = "1" }
 brotli = "6.0.0"
 brotli-decompressor = "4.0.1"
